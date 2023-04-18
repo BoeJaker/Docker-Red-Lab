@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.10
 # Copy in our tools
 COPY Scripts /Scripts
 RUN apt update && \ 
